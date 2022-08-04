@@ -1,0 +1,48 @@
+body{
+    margin: 0%;
+}
+#navbar{
+    display: flex;
+    background-color: black;
+    color: whitesmoke;
+    align-items: center;
+    padding: 5px;
+}
+#logo img{
+    width: 45px;
+}
+#search-bar{
+    width: 15%;
+    margin-left: 30px;
+}
+#search-bar #search{
+    width: 100%;
+    padding: 5px;
+    font-size: 17px;
+    border-radius: 4px;
+}
+#options{
+    width: 25%;
+    } 
+#options ul{
+    display: flex;
+    gap: 8px;
+    align-items: center;
+    justify-content: space-between;
+}
+#options ul li{
+    list-style-type: none;
+}
+#options ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+}
+#profile{
+width: 55%;
+display: flex;
+flex-direction: row-reverse;
+}
+#profile img{
+width: 5%;
+border-radius: 50%;
+}
